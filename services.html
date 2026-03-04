@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | CyberHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="network-canvas" style="z-index:-1;"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">Cyber<span>Hub</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="videos.html">Intel Feeds</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section class="page-header gradient-bg">
+        <h1 class="glitch" data-text="OUR ARSENAL">OUR ARSENAL</h1>
+        <p>Comprehensive protection protocols for your enterprise.</p>
+    </section>
+
+    <section class="services-list">
+        <div class="service-item glass fade-in">
+            <div class="service-meta">
+                <h2>Penetration Testing</h2>
+                <span class="badge">Red Team</span>
+            </div>
+            <p>Our ethical hackers aggressively assault your systems mimicking real-world APTs (Advanced Persistent
+                Threats) to discover vulnerabilities in your network, web apps, and wireless infrastructure before
+                malicious actors exploit them.</p>
+            <button class="btn btn-outline" onclick="window.location.href='contact.html'">Deploy Red Team</button>
+        </div>
+
+        <div class="service-item glass fade-in">
+            <div class="service-meta">
+                <h2>Incident Response</h2>
+                <span class="badge">DFIR</span>
+            </div>
+            <p>If the worst happens, our rapid-response team isolates the breach, mitigates the damage, and fully
+                investigates the vector of attack. We preserve evidence and restore your operations with minimal
+                downtime.</p>
+            <button class="btn btn-outline" onclick="window.location.href='contact.html'">Request Backup</button>
+        </div>
+
+        <div class="service-item glass fade-in">
+            <div class="service-meta">
+                <h2>Threat Intelligence</h2>
+                <span class="badge">Monitoring</span>
+            </div>
+            <p>24/7/365 active monitoring from our SOC (Security Operations Center). We leverage machine learning
+                heuristics and global threat feeds to block emerging malware, phishing, and ransomware campaigns.</p>
+            <button class="btn btn-outline" onclick="window.location.href='contact.html'">Initiate Overwatch</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Cyber<span>Hub</span></div>
+            <p>&copy; 2026 CyberHub Global Security.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
